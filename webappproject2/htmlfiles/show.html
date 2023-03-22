@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="{{movie.img.url}}" width="300" height="300">
+        </div>
+     <div class="col-lg-6">
+         <h6>{{movie.year}}</h6>
+         <h3>{{movie.name}}</h3>
+         <h5>{{movie.desc}}</h5>
+
+     </div>
+    </div>
+</div>
+
+{% endblock %}
